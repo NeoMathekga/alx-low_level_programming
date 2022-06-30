@@ -1,16 +1,14 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
+ * main - Entry point of the program
  *
- *main - Entry point
+ * Description: and that piece of art is useful - Dora Korpa
  *
- *Description: 'and that piece of art is useful" - Dora Korpar, 2015-10-19'
- *
- *return: Always 0 (Success)
+ * return: ALways 0 for success
 */
 int main(void)
-{	
-write("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
-
-return (1);
+{
+write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",59);
+return(1);
 }
