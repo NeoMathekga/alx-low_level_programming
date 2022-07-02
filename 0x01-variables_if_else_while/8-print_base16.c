@@ -1,29 +1,24 @@
-#include <stdio.h>
-#include <stdlib.h>
 /**
- * main - main block
- * Description: prints all single digit numbers of base 16
- * starting from 0, followed by a new line.
- * Return: 0
- */
-int main(void)
+ * File: 8-print_base16.c
+ * Auth: Neo M
+*/
+#include <stdio.h>
+/**
+ * main -it outputs all the numbers of base 16 in lower case
+ *
+ * Return: Always 0.
+*/
+int main (void)
 {
-	char d = '0';
+	int number;
+	char letter;
 
-	while (d <= '14')
-	{
-		putchar(d);
-		d++;
-	}
+	for (number = 0; number < 10; number++)
+		putchar((number % 10) + '0');
 
-	char c = 'a';
-
-	while (c <= 'f')
-	{
-		putchar(c);
-		c++;
-	}
-
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
 	putchar('\n');
+
 	return (0);
 }
