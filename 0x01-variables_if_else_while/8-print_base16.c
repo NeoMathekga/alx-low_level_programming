@@ -4,11 +4,13 @@
 */
 #include <stdio.h>
 /**
- * main -it outputs all the numbers of base 16 in lower case
+ *main - entry point to the program 
  *
- * Return: Always 0.
+ * Description -it outputs all the numbers of base 16 in lower case
+ *
+ * Return: Always 0 for success
 */
-int main (void)
+int main(void)
 {
 	int number;
 	char letter;
