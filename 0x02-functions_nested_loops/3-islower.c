@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- * _islower - It checks for lowercase character
-<<<<<<< HEAD
-:* 
-=======
+ * _islower - It checks for lowercase character:WQ
+  
  * @c: An input character
  * Return: 1 if c is lowercase or 0 otherwise
  */
@@ -21,4 +19,3 @@ int _islower(int c)
 	}
 	return (is_lower);
 }
->>>>>>> 79b04955128aa47d757ee1edac2251cfa298322f
