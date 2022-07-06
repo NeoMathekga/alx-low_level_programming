@@ -1,1 +1,1 @@
-Learning about c functions now
+functions and nested loops
