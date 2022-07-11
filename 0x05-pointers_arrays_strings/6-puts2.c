@@ -3,7 +3,7 @@
 
 /**
  * puts2 -> func that returns void
- * @str: pointer 
+ * @str: pointer
  */
 void puts2(char *str)
 {
