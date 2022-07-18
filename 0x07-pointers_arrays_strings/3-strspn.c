@@ -12,18 +12,21 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int i = 0;
+	unsigned int x = 0;
 	unsigned int sum = 0;
 
 	while (*(accept + i))
 	{
-		while (*(s + i))
+		while (*(s + x))
 		{
-			if (*(s + i) == *(accept + i))
+			if (*(s + x) == *(accept + i))
 			{
-				sum += i;
+				sum += 1;
 			}
+			x++;
 		}
+		i++;
 	}
-	return (sum + 1);
+	return (sum);
 }
 
