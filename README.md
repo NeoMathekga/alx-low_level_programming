@@ -1,1 +1,1 @@
-Starting to learn c language
+This repo contains my solutions to ALX c tasks
