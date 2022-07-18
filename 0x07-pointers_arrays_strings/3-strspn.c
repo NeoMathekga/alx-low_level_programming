@@ -26,6 +26,7 @@ unsigned int _strspn(char *s, char *accept)
 			x++;
 		}
 		i++;
+		x = 0;
 	}
 	return (sum);
 }
