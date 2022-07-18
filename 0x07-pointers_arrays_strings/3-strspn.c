@@ -17,6 +17,10 @@ unsigned int _strspn(char *s, char *accept)
 
 	while (*(accept + i))
 	{
+		if (*(accept + i) == '\0')
+		{
+			return (sum);
+		}
 		while (*(s + x))
 		{
 			if (*(s + x) == *(accept + i))
