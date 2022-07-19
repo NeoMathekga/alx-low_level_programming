@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int code = 0;
+	int code;
 
 	int i = 0;
 	int min = 32;
