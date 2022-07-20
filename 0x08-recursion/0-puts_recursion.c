@@ -8,13 +8,16 @@
  *
  * Return: void
  */
-void _puts_recursion(char *s){
+void _puts_recursion(char *s)
+{
 	unsigned int i = 0;
 
-	while (*(s + i))
+	if (*s)
 	{
 		_putchar(*s);
-			break;
+		i++;
+		_puts_recursion(s + i);
+
 	}
 	_putchar('\n');
 }
