@@ -1,9 +1,9 @@
 #include "main.h"
 /*
  *factorial- returns factorial of given number
- *@n passed integer
+ *@n: passed integer
  *
- *Description: If n is lower than 0, function
+ *description: If n is lower than 0, function
  *the function should return -1
  *to indicate an error Factorial of 0 is 1
  *
