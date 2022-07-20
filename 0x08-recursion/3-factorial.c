@@ -3,7 +3,7 @@
  *factorial- returns factorial of given number
  *@n: passed integer
  *
- *description: If n is lower than 0, function
+ *description: the function if n is lower than 0,
  *the function should return -1
  *to indicate an error Factorial of 0 is 1
  *
