@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  *factorial- returns factorial of given number
  *@n: passed integer
  *
@@ -9,6 +9,7 @@
  *
  * Return: factorial integer
  */
+
 int factorial(int n)
 {
 	if (n == 1 || n == 0)

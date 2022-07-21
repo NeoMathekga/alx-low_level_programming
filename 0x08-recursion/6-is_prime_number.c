@@ -14,7 +14,7 @@ int is_prime_number(int n)
 	
 	unsigned int = i;
 
-	if ((float)(n % 2) != 0)
+	if ((n % 2.0) != 0)
 	{
 		return (1);
 
