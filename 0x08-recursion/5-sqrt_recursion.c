@@ -27,6 +27,6 @@ int root_calc(int n, int i)
  *Return: squareroot
  */
 int _sqrt_recursion(int n)
-{	
+{
 	return (root_calc(n, 1));
 }

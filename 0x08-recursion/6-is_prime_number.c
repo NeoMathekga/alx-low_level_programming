@@ -11,7 +11,7 @@
  */
 int is_prime_number(int n)
 {
-	if ((n % 2.0) != 0)
+	if (((double)n % 2.0) != 0)
 	{
 		return (1);
 
