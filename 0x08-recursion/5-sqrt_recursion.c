@@ -28,5 +28,5 @@ int root_calc(int n, int i)
  */
 int _sqrt_recursion(int n)
 {	
-	return (sqrt_modify(n, 1));
+	return (root_calc(n, 1));
 }
