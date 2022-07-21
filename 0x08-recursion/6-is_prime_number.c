@@ -5,7 +5,7 @@
  * @step: stepping value
  * Return: prime number or 0
  */
-int checker(int n, int factor)
+int checker(int n, int step)
 {
 	if (n == step)
 	{
