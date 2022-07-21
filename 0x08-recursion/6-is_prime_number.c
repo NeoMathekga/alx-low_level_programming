@@ -1,5 +1,24 @@
 #include "main.h"
 /**
+ * checker- Checks for prime
+ * @n: integer parameter
+ * @step: stepping value
+ * Return: prime number or 0
+ */
+int checker(int n, int factor)
+{
+	if (n == step)
+	{
+		return (1);
+	}
+	else if (n % step == 0)
+	{
+		return (0);
+	}
+	return (checker(n, step + 1));
+}
+
+/**
  *is_prime_number- returns prime numbers
  *@n: input integer
  *
@@ -11,13 +30,9 @@
  */
 int is_prime_number(int n)
 {
-	if (((double)n % 2.0) != 0)
-	{
-		return (1);
-
-	}
-	else
+	if (n <= 1)
 	{
 		return (0);
 	}
+	return (checker(n, 2));
 }
