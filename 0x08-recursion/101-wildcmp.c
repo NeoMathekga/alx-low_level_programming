@@ -9,29 +9,13 @@
  */
 int wildcmp(char *s1, char *s2)
 {
-	switch(*s)
-	{
-	case (*s1 == '\0' && *s2 == '\0'):
-	{
-	return (1);
-	break;
-	}
-	case (*s1 == '\0' && *s2 == '*'):
-	{
-	return (wildcmp(s1, s2 + 1));
-	break;
-	}
-	case (*s1 == *s2):
-	{
-	return (wildcmp(s1 + 1, s2 + 1));
-	break;
-	}
-	case (*s2 == '*' && (wildcmp(s1, s2 + 1) || wildcmp(s1 + 1, s2)) && *s1 != '\0'):
-	{
-	return (1);
-	break;
-	}
-	default:
-		return (0);
-	}
+	if else (*s1 == '\0' && *s2 == '\0')
+		return (1);
+	if else (*s1 == '\0' && *s2 == '*')
+		return (wildcmp(s1, s2 + 1));
+	if else (*s1 == *s2)
+		return (wildcmp(s1 + 1, s2 + 1));
+	if else (*s2 == '*' && (wildcmp(s1, s2 + 1) || wildcmp(s1 + 1, s2)) && *s1 != '\0')
+		return (1);
+	return (0);
 }
