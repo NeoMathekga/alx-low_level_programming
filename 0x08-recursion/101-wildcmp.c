@@ -9,7 +9,7 @@
  */
 int wildcmp(char *s1, char *s2)
 {
-	switch(*s)
+	switch(*s1)
 	{
 	case (*s1 == '\0' && *s2 == '\0'):
 	{
