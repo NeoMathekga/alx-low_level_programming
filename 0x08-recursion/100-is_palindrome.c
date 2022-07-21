@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strlen_recursion - returns length of string
  * @s: string parameter
@@ -13,9 +12,10 @@ int _strlen_recursion(char *s)
 }
 
 /**
- * review_palindrome - checks if string is equal with length - i
+ * palindrome2 - checks if string is equal with length
  * @s: string
  * @len: length of s
+ *
  * Return: 1 or 0
  */
 int palindrome2(char *s, int len)
@@ -36,6 +36,6 @@ int is_palindrome(char *s)
 {
 	int len;
 
-	length = _strlen_recursion(s);
+	len = _strlen_recursion(s);
 	return (palindrome2(s, len - 1));
 }
